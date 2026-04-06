@@ -11,7 +11,7 @@
     "test_scenario": "logging.log_backend_initialization",
     "build_command": "west build -b qemu_x86 tests/subsys/logging/log_backend_init",
     "run_command": "west build -t run",
-    "docker_image": "YOURNAME/embedbench-zephyr-43405:latest",
+    "docker_image": "rishimantri/embedbench-zephyr-43405:latest",
     "fail_to_pass": [
         "test_log_backends_initialization"
     ],

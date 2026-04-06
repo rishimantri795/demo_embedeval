@@ -22,8 +22,8 @@ fi
 
 # ─── Pull instance images ────────────────────────────────────────────────────
 echo "Pulling instance images (this may take a few minutes on first run)..."
-docker pull YOURNAME/embedbench-zephyr-65697:latest
-docker pull YOURNAME/embedbench-zephyr-43405:latest
+docker pull rishimantri/embedbench-zephyr-65697:latest
+docker pull rishimantri/embedbench-zephyr-43405:latest
 echo ""
 
 # ─── Python dependencies ─────────────────────────────────────────────────────
